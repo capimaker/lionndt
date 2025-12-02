@@ -33,7 +33,7 @@ const translations = {
       "Systematic observation of surfaces to identify discontinuities without equipment.",
     "services.pd.title": "Eddy Current Testing (ET)",
     "services.pd.body":
-      "Eddy Current Testing (ECT) is a non-destructive testing method that uses electromagnetic induction to find flaws like cracks and corrosion in conductive materials, primarily metals.",
+      "Eddy Current Testing (ET) is a non-destructive testing method that uses electromagnetic induction to find flaws like cracks and corrosion in conductive materials, primarily metals.",
     "services.cwi.title": "Certified Welding Inspections (CWI)",
     "services.cwi.body": `Certified Welding Inspections (CWI) provide expert visual inspections of welds on aircraft or industrial structures to ensure compliance with AWS D1.1 (steel) and D17.1 (aerospace) standards.
 Services include defect detection, compliance checks, pre/post-weld evaluation, thorough reporting, and corrective recommendations.`,
