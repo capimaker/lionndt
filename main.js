@@ -31,7 +31,7 @@ const translations = {
     "services.vt.title": "Visual Testing (VT)",
     "services.vt.body":
       "Systematic observation of surfaces to identify discontinuities without equipment.",
-    "services.pd.title": "Eddy Current Testing (ECT)",
+    "services.pd.title": "Eddy Current Testing (ET)",
     "services.pd.body":
       "Eddy Current Testing (ECT) is a non-destructive testing method that uses electromagnetic induction to find flaws like cracks and corrosion in conductive materials, primarily metals.",
     "services.cwi.title": "Certified Welding Inspections (CWI)",
