@@ -107,9 +107,9 @@ Services include defect detection, compliance checks, pre/post-weld evaluation, 
     "services.vt.title": "Visual Testing (VT)",
     "services.vt.body":
       "Inspección visual sistemática para identificar discontinuidades sin equipo adicional.",
-    "services.pd.title": "Desarrollo de procedimientos",
+    "services.pd.title": "Eddy Current Testing (ET)",
     "services.pd.body":
-      "Creación y validación de procedimientos END según códigos, normas y necesidades del cliente.",
+      "Es un método de prueba no destructivo que utiliza inducción electromagnética para encontrar defectos como grietas y corrosión en materiales conductores, principalmente metales.",
 
     "services.cwi.title": "Inspecciones de soldadura certificadas (CWI)",
     "services.cwi.body": `Las Inspecciones de Soldadura Certificadas (CWI) proporcionan inspecciones visuales expertas de soldaduras en aeronaves o estructuras industriales para garantizar el cumplimiento de los estándares AWS D1.1 (acero) y D17.1 (aeroespacial).
@@ -122,7 +122,7 @@ Services include defect detection, compliance checks, pre/post-weld evaluation, 
     "services.nc.item4": "Auditorías simuladas para evaluar cumplimiento y brindar retroalimentación.",
     "services.nc.item5": "Ayuda con planes de acción correctiva ante hallazgos de auditoría.",
     "services.nc.item6": "Consultoría continua para mantener el cumplimiento.",
-    
+
     "services.ndt.title": "Servicios de Nivel III END",
     "services.ndt.item1": "Desarrollar y revisar Hojas de Procedimiento y Técnica.",
     "services.ndt.item2": "Brindar capacitación y certificación para aprendices y personal END Nivel I, II y III. personal de acuerdo con SNT-TC-1A, NAS 410 y otros estándares de la industria.",
