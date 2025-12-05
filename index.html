@@ -8,6 +8,11 @@
 <link rel="canonical" href="https://lionndt.com/"/>
 <link rel="stylesheet" href="assets/tailwind.css"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
+<style>
+.service-card { transition: transform 0.3s ease, border-color 0.3s ease; }
+.service-card:hover { border-color: #1d6c9e; }
+.dark .service-card:hover { border-color: #1d6c9e; }
+</style>
 <link rel="icon" type="image/png" href="assets/logo.png" sizes="1024x1024"/>
 <link rel="apple-touch-icon" href="assets/logo.png" sizes="180x180"/>
 <meta property="og:title" content="Lion NDT - Nondestructive Consulting Services"/>
@@ -88,8 +93,8 @@
 <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80 pointer-events-none"></div>
 <div class="relative container mx-auto px-6 text-center text-white">
 <h1 class="font-display text-4xl md:text-6xl font-bold mb-4">
-  <span class="text-primary">LION</span>
-  <span class="text-black dark:text-white">NDT</span>
+  <span class="text-primary dark:text-white inline-block px-3 py-1 rounded-md" style="-webkit-text-stroke: 1px rgba(105, 129, 194, 0.9); text-shadow: 0 0 6px rgba(255,255,255,0.5);">LION</span>
+  <span class="text-black dark:text-white inline-block px-3 py-1 rounded-md" style="-webkit-text-stroke: 1px rgba(255,255,255,0.9); text-shadow: 0 0 6px rgba(255,255,255,0.5);">NDT</span>
 </h1>
 <p class="text-xl md:text-2xl mb-8 tracking-wider" data-i18n="hero.tagline">Pioneering Excellence in Nondestructive Consulting</p>
 <p class="max-w-3xl mx-auto text-slate-200" data-i18n="hero.description">
@@ -109,7 +114,7 @@
 </p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+    <div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
     <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
     <span class="material-icons text-primary text-3xl">engineering</span>
     </div>
@@ -117,7 +122,7 @@
     <p class="whitespace-pre-line" data-i18n="services.cwi.body">Certified Welding Inspection (CWI) service provides expert evaluation of welds for aircraft and industrial structures to ensure quality and safety.
     </p>
     </div>
-    <div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+    <div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
         <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
             <span class="material-icons text-primary text-3xl">fact_check</span>
         </div>
@@ -131,14 +136,14 @@
         </ul>
        
     </div>
-    <div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+    <div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
         <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
             <span class="material-icons text-primary text-3xl">rule</span>
         </div>
         <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3" data-i18n="services.rt.title">QA/QC Consulting</h3>
         <p class="whitespace-pre-line" data-i18n="services.rt.body">Utilizing X-rays or gamma rays to view the internal structure of components.</p>
     </div>
-    <div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+    <div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
     <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
     <span class="material-icons text-primary text-3xl">assignment_turned_in</span>
     </div>
@@ -152,35 +157,35 @@
     <li data-i18n="services.nc.item6">Ongoing consultation to ensure sustained compliance.</li>
     </ul>
     </div>
-    <div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+    <div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
         <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
 <img alt="Magnetic particle testing icon" class="h-8 w-8 object-contain" loading="lazy" src="assets/icons/iconosvg/Asset 1.svg"/>
 </div>
 <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3" data-i18n="services.ut.title">Ultrasonic Testing (UT)</h3>
 <p data-i18n="services.ut.body">High-frequency sound waves to detect internal flaws and characterize material thickness.</p>
 </div>
-<div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+<div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
 <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
 <img alt="Magnetic particle testing icon" class="h-8 w-8 object-contain" loading="lazy" src="assets/icons/iconosvg/Asset 24.svg"/>
 </div>
 <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3" data-i18n="services.mt.title">Magnetic Particle Testing (MT)</h3>
 <p data-i18n="services.mt.body">Detecting surface and near-surface discontinuities in ferromagnetic materials.</p>
 </div>
-<div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+<div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
 <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
 <img alt="liquid penetrant testing icon" class="h-8 w-8 object-contain" loading="lazy" src="assets/icons/iconosvg/Asset 25.svg"/>
 </div>
 <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3" data-i18n="services.pt.title">Liquid Penetrant Testing (PT)</h3>
 <p data-i18n="services.pt.body">Revealing surface-breaking defects in non-porous materials through dye bleed-out.</p>
 </div>
-<div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+<div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
 <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
 <img alt="visual testing icon" class="h-8 w-8 object-contain" loading="lazy" src="assets/icons/iconosvg/Asset 10.svg"/>
 </div>
 <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3" data-i18n="services.vt.title">Visual Testing (VT)</h3>
 <p data-i18n="services.vt.body">Systematic observation of surfaces to identify discontinuities without equipment.</p>
 </div>
-<div class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-transform transform hover:-translate-y-2 duration-300">
+<div class="service-card bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-md border border-slate-200 dark:border-slate-700 transition-all transform hover:-translate-y-2 duration-300 hover:border-primary dark:hover:border-primary">
 <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-6">
 <img alt="eddy current testing icon" class="h-8 w-8 object-contain" loading="lazy" src="assets/icons/tool.png"/>
 </div>

@@ -31,12 +31,14 @@ const translations = {
     "services.vt.title": "Visual Testing (VT)",
     "services.vt.body":
       "Systematic observation of surfaces to identify discontinuities without equipment.",
+
     "services.pd.title": "Eddy Current Testing (ET)",
     "services.pd.body":
       "Eddy Current Testing (ET) is a non-destructive testing method that uses electromagnetic induction to find flaws like cracks and corrosion in conductive materials, primarily metals.",
     "services.cwi.title": "Certified Welding Inspections (CWI)",
     "services.cwi.body": `Certified Welding Inspections (CWI) provide expert visual inspections of welds on aircraft or industrial structures to ensure compliance with AWS D1.1 (steel) and D17.1 (aerospace) standards.
 Services include defect detection, compliance checks, pre/post-weld evaluation, thorough reporting, and corrective recommendations.`,
+
     "services.nc.title": "NADCAP Accreditation",
     "services.nc.item1": "Gap analysis to identify areas for improvement.",
     "services.nc.item2": "Documentation assistance for quality manuals and procedures.",
@@ -44,12 +46,13 @@ Services include defect detection, compliance checks, pre/post-weld evaluation, 
     "services.nc.item4": "Mock audits for compliance assessment and feedback.",
     "services.nc.item5": "Help with corrective action plans for audit findings.",
     "services.nc.item6": "Ongoing consultation to ensure sustained compliance.",
+
     "services.ndt.title": "NDT Level III Services",
-    "services.ndt.item1": "Develop and review of the written practice, procedures and technique sheets.",
-    "services.ndt.item2": "We provide classroom training and certification for NDT Level I, II, and III personnel in accordance with SNT-TC-1A, NAS 410, and other industry standards.",
+    "services.ndt.item1": "Develop and review Procedure and Technique Sheets.",
+    "services.ndt.item2": "Provide training and certification for trainees and NDT Level I, II, and III personnel.",
     "services.ndt.item3": "Conduct proficiency evaluations and vision examinations for both NDT personnel and Quality Inspectors.",
     "services.ndt.item4": "Perform Probability of Detection (POD) studies.",
-    "services.ndt.item5": "NDT department design and implementation support.",
+    /*"services.ndt.item5": "NDT department design and implementation support.",*/
 
     "about.title": "About Lion NDT",
     "about.body1":
@@ -82,27 +85,36 @@ Services include defect detection, compliance checks, pre/post-weld evaluation, 
     "services.title": "Nuestros servicios de consultoría",
     "services.subtitle":
       "Especialistas listos para cumplir con los más altos estándares de la industria.",
+
     "services.ut.title": "Ultrasonic Testing (UT)",
     "services.ut.body":
       "Ondas de sonido de alta frecuencia para detectar fallas internas y medir espesores.",
+
     "services.mt.title": "Magnetic Particle Testing (MT)",
     "services.mt.body":
       "Detección de discontinuidades superficiales y cercanas a la superficie en materiales ferromagnéticos.",
+
     "services.pt.title": "Liquid Penetrant Testing (PT)",
     "services.pt.body":
       "Revela defectos abiertos a la superficie en materiales no porosos mediante tintes penetrantes.",
+
     "services.rt.title": "QA/QC Consulting",
     "services.rt.body":
-      "Uso de rayos X o gamma para ver la estructura interna de los componentes.",
+      `Ayudamos a las organizaciones aeroespaciales y afines a cumplir con las regulaciones de la EASA, la FAA, la CAAC y la CAA mediante el desarrollo y la revisión de sus Sistemas de Gestión de Calidad, incluyendo los manuales, procedimientos y Sistemas de Gestión de Seguridad (SMS) AS9100, AS9110, RSQCM, RSM y QCM.
+       Nuestros servicios incluyen evaluaciones de deficiencias, evaluaciones de riesgos, desarrollo de planes de acción correctiva y auditorías internas conforme a las normas regulatorias.
+       También proporcionamos informes de auditoría completos y recomendaciones personalizadas`,
+
     "services.vt.title": "Visual Testing (VT)",
     "services.vt.body":
       "Inspección visual sistemática para identificar discontinuidades sin equipo adicional.",
     "services.pd.title": "Desarrollo de procedimientos",
     "services.pd.body":
       "Creación y validación de procedimientos END según códigos, normas y necesidades del cliente.",
+
     "services.cwi.title": "Inspecciones de soldadura certificadas (CWI)",
     "services.cwi.body": `Las Inspecciones de Soldadura Certificadas (CWI) proporcionan inspecciones visuales expertas de soldaduras en aeronaves o estructuras industriales para garantizar el cumplimiento de los estándares AWS D1.1 (acero) y D17.1 (aeroespacial).
-Los servicios incluyen detección de defectos, verificación de cumplimiento, evaluación antes y después de la soldadura, informes detallados y recomendaciones correctivas.`,
+     Los servicios incluyen detección de defectos, verificación de cumplimiento, evaluación antes y después de la soldadura, informes detallados y recomendaciones correctivas.`,
+
     "services.nc.title": "Acreditación NADCAP",
     "services.nc.item1": "Análisis de brechas para identificar áreas de mejora.",
     "services.nc.item2": "Apoyo documental para manuales de calidad y procedimientos.",
@@ -110,6 +122,7 @@ Los servicios incluyen detección de defectos, verificación de cumplimiento, ev
     "services.nc.item4": "Auditorías simuladas para evaluar cumplimiento y brindar retroalimentación.",
     "services.nc.item5": "Ayuda con planes de acción correctiva ante hallazgos de auditoría.",
     "services.nc.item6": "Consultoría continua para mantener el cumplimiento.",
+    
     "services.ndt.title": "Servicios de Nivel III END",
     "services.ndt.item1": "Desarrollar y revisar Hojas de Procedimiento y Técnica.",
     "services.ndt.item2": "Brindar capacitación y certificación para aprendices y personal END Nivel I, II y III. personal de acuerdo con SNT-TC-1A, NAS 410 y otros estándares de la industria.",
