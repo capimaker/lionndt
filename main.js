@@ -25,7 +25,7 @@ const translations = {
       "Revealing surface-breaking defects in non-porous materials through dye bleed-out.",
     "services.rt.title": "QA/QC Consulting",
     "services.rt.body":
-      `We assist aerospace and related organizations in complying with EASA, FAA, CAAC, and CAA regulations by developing and reviewing their Quality Management Systems, including AS9100, AS9110, RSQCM, RSM, and QCM manuals, procedures, and Safety Management Systems (SMS). 
+      `We assist aerospace and non-related organizations in complying with EASA, FAA, CAAC, and CAA regulations by developing and reviewing their Quality Management Systems, including AS9100, AS9110, RSQCM, RSM, and QCM manuals, procedures, and Safety Management Systems (SMS). 
       Our services include gap assessments, risk evaluations, corrective action plan development, and internal audits in line with regulatory standards. 
       We also provide comprehensive audit reports and tailored recommendations.`,
     "services.vt.title": "Visual Testing (VT)",
